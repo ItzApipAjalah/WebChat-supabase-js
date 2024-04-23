@@ -1,5 +1,5 @@
-const supabaseUrl = 'https://rxfmhcthjvhwdfkawpwu.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ4Zm1oY3RoanZod2Rma2F3cHd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTM4ODA1MTUsImV4cCI6MjAyOTQ1NjUxNX0.Yw-Z6ICStORd-shD9UPAXE56EUQ10J6uKIqAwEfjknA';
+const supabaseUrl = 'YOUR_URL';
+const supabaseKey = 'YOUR_PUBLIC_KEY';
 const { createClient } = supabase;
 const _supabase = createClient(supabaseUrl, supabaseKey);
 
